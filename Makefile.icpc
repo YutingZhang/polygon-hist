@@ -1,0 +1,5 @@
+CC=icpc
+P_CFLAGS=-fast -opt-mem-bandwidth0 -opt-prefetch -funroll-all-loops -opt-subscript-in-range
+P_LIBS=
+
+include linux.mk
